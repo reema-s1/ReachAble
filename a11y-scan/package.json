@@ -1,0 +1,16 @@
+{
+  "name": "a11y-scan",
+  "version": "1.0.0",
+  "description": "Hand-written WCAG 2.1 audit CLI — crawls pages with Playwright and runs custom checks (no axe-core).",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "a11y-scan": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  }
+}

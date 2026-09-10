@@ -1,0 +1,20 @@
+node_modules/
+dist/
+build/
+*.log
+
+# server runtime data (SQLite db + uploaded resumes) — never commit these
+server/data/*.sqlite
+server/data/*.sqlite-shm
+server/data/*.sqlite-wal
+server/data/uploads/
+
+# a11y-scan output reports
+a11y-scan/a11y-report.json
+a11y-scan/a11y-report.html
+
+.env
+.env.local
+
+# local planning doc — not part of the published project
+accessible-jobboard-project-spec.md
